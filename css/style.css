@@ -1,0 +1,45 @@
+html {
+	font-size: 1vw;
+}
+
+#todo li {
+	display: block;
+	border: #e0e0e0 solid 1px;
+	padding:10px 10px 10px 10px;
+}
+
+#todo li:nth-child(n+2){
+	border-top: none;
+}
+
+.right-float {
+	float:right;
+}
+
+#todo label {
+	font-size: 1.2rem;
+}
+
+h1, h2, h3 {
+	font-size: 2rem;
+}
+nav > div {
+	overflow: hidden;
+}
+nav {
+	height: 10vw;
+	line-height: 10vw;
+}
+
+nav .brand-logo {
+	position: relative;
+	left:0;
+	-webkit-transform: none;
+	transform: none;
+
+}
+
+.btn-large {
+	height: 7vw;
+	line-height: 7vw;
+}

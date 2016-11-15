@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ToDo app managing your time">
+
+    <title>ToDo List</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="vendor/materialize/css/materialize.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css"></link>
+</head>
+<body>
+	<nav id="mainNav" class="blue">
+		<div class="container ">
+			<a href="#" class="brand-logo">ToDo CoffeeList</a>
+			<ul id="nav-mobile" class="right">
+				<li><a href="#">Nowe zadanie</a></li>
+				<li><a href="#">Zadania do wykonania</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<h2 class="center-align z-depth-1">Zadania do zrobienia</h2>
+		<ul id="todo">
+			<li><input class="teal accent-2" type="checkbox" id="task1"><label for="task1">Pierwsze zadanie</label><a href="#"><i class="material-icons right-float teal-text ">not_interested</i></a></li>
+			<li><input class="teal accent-2" type="checkbox" id="task1"><label for="task2">Drugie zadanie</label><a href="#"><i class="material-icons right-float teal-text ">not_interested</i></a></li>
+		</ul>
+	</div>
+	<div class="container input-field">
+		<label for="noweZadanie">Nowe Zadanie</label>
+		<input id="noweZadanie" type="text" class="validate">
+	</div>
+	<div class="container center-align">
+		<a class="waves-effect waves-light btn-large red darken-1">Usun zakonczone zadania</a>
+	</div>
+<!-- .js files -->
+<script type="text/javascript" src="vendor/jquery/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="vendor/materialize/js/materialize.js"></script>
+<script type="text/javascript"> src="scripts/app-coffe.coffee"></script>
+</body>
+</html>
