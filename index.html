@@ -17,13 +17,13 @@
 			<a href="#" class="brand-logo">ToDo CoffeeList</a>
 			<ul id="nav-mobile" class="right">
 				<li><a href="#">Nowe zadanie</a></li>
-				<li><a href="#">Zadania do wykonania</a></li>
+				<li><a href="#" id="js-remove-list">Usun cala liste</a></li>
 			</ul>
 		</div>
 	</nav>
 	<div class="container">
 		<h2 class="center-align z-depth-1">Zadania do zrobienia</h2>
-		<ul id="todo">
+		<ul id="todo" class="js-todo-list">
 			<li><input class="teal accent-2" type="checkbox" id="task1"><label for="task1">Pierwsze zadanie</label><a href="#"><i class="material-icons right-float teal-text ">not_interested</i></a></li>
 			<li><input class="teal accent-2" type="checkbox" id="task1"><label for="task2">Drugie zadanie</label><a href="#"><i class="material-icons right-float teal-text ">not_interested</i></a></li>
 		</ul>
@@ -38,6 +38,6 @@
 <!-- .js files -->
 <script type="text/javascript" src="vendor/jquery/jquery-3.1.1.js"></script>
 <script type="text/javascript" src="vendor/materialize/js/materialize.js"></script>
-<script type="text/javascript"> src="scripts/app-coffe.coffee"></script>
+<script type="text/javascript" src="scripts/app-coffe.js"></script>
 </body>
 </html>
