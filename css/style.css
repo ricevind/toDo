@@ -57,7 +57,7 @@ nav .brand-logo {
 }
 
 label[for="noweZadanie"]{
-	margin-top: 10px;
+	margin-top: 2rem;
 	font-size: 2rem;
 }
 
@@ -69,7 +69,7 @@ ul#todo li{
 }
 #noweZadanie {
 	transition: all 0.2s ease;
-	margin-top: 10px;
+	margin-top: 2rem;
 	height: 4rem;
 	font-size: 2.5rem;
 }
