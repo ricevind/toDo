@@ -139,6 +139,7 @@
         this.getItems();
       } else {
         this.storage = [];
+        localStorage.clear();
         localStorage.setItem(name, JSON.stringify(this.storage));
       }
     }

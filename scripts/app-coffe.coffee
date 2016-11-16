@@ -92,6 +92,7 @@ class Storage
 			@getItems()
 		else
 			@storage = []
+			localStorage.clear()
 			localStorage.setItem name, JSON.stringify @storage
 
 	setItem: (item) ->
