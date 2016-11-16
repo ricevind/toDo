@@ -16,7 +16,7 @@
 		<div class="container ">
 			<a href="#" class="brand-logo">ToDo CoffeeList</a>
 			<ul id="nav-mobile" class="right">
-				<li><a href="#">Nowe zadanie</a></li>
+				<li><a href="#" id="js-add">Nowe zadanie</a></li>
 				<li><a href="#" id="js-remove-list">Usun cala liste</a></li>
 			</ul>
 		</div>
@@ -24,13 +24,14 @@
 	<div class="container">
 		<h2 class="center-align z-depth-1">Zadania do zrobienia</h2>
 		<ul id="todo" class="js-todo-list">
-			<li><input class="teal accent-2" type="checkbox" id="task1"><label for="task1">Pierwsze zadanie</label><a href="#"><i class="material-icons right-float teal-text ">not_interested</i></a></li>
-			<li><input class="teal accent-2" type="checkbox" id="task1"><label for="task2">Drugie zadanie</label><a href="#"><i class="material-icons right-float teal-text ">not_interested</i></a></li>
+			<li><input class="teal accent-2" type="checkbox" id="task1"><label for="task1">Pierwsze zadanie</label><i class="material-icons right-float teal-text ">not_interested</i></li>
+			<li><input class="teal accent-2" type="checkbox" id="task1"><label for="task2">Drugie zadanie</label><i class="material-icons right-float teal-text ">not_interested</i></li>
 		</ul>
 	</div>
 	<div class="container input-field">
 		<label for="noweZadanie">Nowe Zadanie</label>
-		<input id="noweZadanie" type="text" class="validate">
+		<input id="noweZadanie" type="text" class="validate js-noweZadanie">
+
 	</div>
 	<div class="container center-align">
 		<a class="waves-effect waves-light btn-large red darken-1">Usun zakonczone zadania</a>
